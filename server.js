@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 // variables
-const port = 3001;
+const port = 3000;
 const app = express();
 
 //middleware
@@ -11,6 +11,10 @@ app.use(express.json());
 
 app.get("/eldesoky", (req, res) => {
   res.send("Ahmed youssf br");
+});
+
+app.get("/youssef", (req, res) => {
+  res.send("youssf br");
 });
 
 // database server
