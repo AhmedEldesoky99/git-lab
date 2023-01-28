@@ -14,4 +14,8 @@ mongoose
   .connect("mongodb://127.0.0.1:27017/todo_list")
   .then((_) => console.log("database connected successfully"));
 
+  app.get('/youssef', (req, res) => {
+  res.send("youssef br")
+})
+
 app.listen(port, () => console.log(`server is listening on port: ${port}`));
