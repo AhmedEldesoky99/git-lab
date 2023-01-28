@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 // variables
-const port = 3001;
+const port = 65000;
 const app = express();
 
 //middleware
